@@ -56,3 +56,19 @@ console.log(informacionBBVA.length);		// 3
 
 console.log(typeof informacionBBVA);		// Object
 
+//Ejemplos 
+
+//1. Programa de Transformacion de Grados Celsius a Grados Fahrenheit
+
+var celsius = Number(prompt("Introduce una temperatura en Grados Celsius"));
+
+var fahrenheit = celsius * 9/5 + 32;
+
+console.log( celsius + " °C = " + fahrenheit + " °F");
+
+//2. Programa de Recopilacion de Informacion del Usuario
+
+var nombre = prompt("Introduce tu nombre");
+var apellido = prompt("Introduce tu apellido");
+
+console.log("Bienvenido: " + nombre + " " + apellido);
